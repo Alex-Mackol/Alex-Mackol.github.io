@@ -1,0 +1,139 @@
+body{
+    background: url(/img/fon-elements.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.render-div{
+    margin: auto;
+    width: 80%;
+
+    margin-top: 10px;
+    background: transparent;
+}
+.render-div-icon{
+    height: 20px;
+    width: 100px;
+    /* margin-top: 30px; */
+    margin-left: 3%;
+}
+.render-div-text{
+    margin-left: 7%; 
+    margin-top: 70px;
+}
+.render-div-all{
+    width: 1029px;
+    height: auto;
+    /* margin: auto; */
+    margin:70px 115px;
+
+    background-size: auto;
+}
+.render-nav-mini{
+    margin-top: -300px;
+    margin-left: 60px;
+    width: 385px;
+    /* height: auto; */
+}
+.render-nav-mini-line{
+    margin-left: 0px;
+    width: 359px;
+    height: 3px;
+
+    background: black;
+}
+.nav-item .nav-link{
+    color: #475C77;
+}
+.nav-item .nav-link:hover{
+    color: #475C77;
+}
+.nav-pills .nav-item .nav-link.active{
+  color: #fff;
+  border-radius: 0  ;
+  background-color:  #6BC3F0;
+}
+
+/* our mission */
+.div-mission{
+    width: 1029px;
+    height: 300px;
+
+    margin: 20px 20px;
+    /* background: url(/img/dandelion.png); */
+    /* box-shadow: 0px 6.25762px 10.0122px rgba(0, 0, 0, 0.15); */
+}
+
+/* table view */
+.what-we-do{
+    width: 1029px;
+    height: auto;
+    margin-top: 20px;
+}
+.div-table-text{
+    width: auto;
+    height: 76px;
+    margin-top: -76px;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 6.5%;
+
+    border: 0px solid black;
+    background: white;
+}
+.table {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	empty-cells: show; 
+}
+.table-col {
+	display: table-column;
+}
+.table-tbody {
+	display: table-row-group;
+}
+.table-tr {
+	display: table-row;
+}
+.table-td {
+	display: table-cell;
+    /* width: 100px; */
+    /* height: 100px; */
+	padding: 60px;
+	border: 0px solid #555;
+}
+
+/* documents */
+.document-page{
+    width: 1029px;
+    height: 324px;
+    margin: 20px 20px;
+    /* margin-left: 50px; */
+
+    /* background: url(/img/fon-oduvan.png); */
+    /* box-shadow: 0px 6.25762px 10.0122px rgba(0, 0, 0, 0.15); */
+}
+.document-page-text{
+    width: 1029px;
+    height: 300px;
+
+    overflow: auto;
+    display: flex;
+}
+
+/* zviti */
+.zvit-page{
+    width: 1029px;
+    height: 300px;
+
+    margin: 20px 20px;
+
+    /* background: url(/img/fon-zvit.png); */
+    /* box-shadow: 0px 6.25762px 10.0122px rgba(0, 0, 0, 0.15); */
+}
+.zvit-page-text{
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    display: flex;
+}

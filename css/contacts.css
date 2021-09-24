@@ -1,0 +1,33 @@
+.div-contacts{
+    margin: auto;
+    width: 1110px;
+    height: 680px;
+
+    /* background: url(/img/fon-contacs.png); */
+}
+.render-div{
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+
+    background: transparent;
+}
+.render-div-icon{
+    height: 20px;
+    width: 100px;
+    margin-top: 30px;
+}
+.render-div-text{
+    margin-top: 70px;
+}
+.div-map{
+    width: 1029px;
+    height: 324px;
+    margin: 70px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+
+    background-color: #FFFFFF;
+    /* background: red; */
+}
